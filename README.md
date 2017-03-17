@@ -12,4 +12,4 @@ This DLL load to exe at runtime, it isn't a static bound linkage. (So it replace
 The MyPluginInterface.dll is the connecting link between them.
 It's an interface definition only, but both (MyPluginDemo.exe and MyPluginClasses.dll) known it, but thees two don't know eachothers. 
 
-The interface only tell call information to exe, but the code staying in MyPluginClasses.dll.
+The interface only tells call information to exe, but the code staying in MyPluginClasses.dll.
